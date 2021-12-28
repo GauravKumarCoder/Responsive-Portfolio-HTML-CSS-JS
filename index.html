@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio UI DESIGN</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
+    
+    <!-- TYPEIT CDN -->
+    <script src="https://unpkg.com/typeit@8.0.2/dist/index.umd.js"></script>
+
+    <!-- SWIPER JS CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header " id="header">
+            <div class="business__name">
+                <h2 >MyPortfolio</h2>
+            </div>
+
+            <div class="business__menus">
+                <a href="#about">About</a>
+                <a href="#skills">My Skills</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveHeader()">
+                  <i class="fa fa-bars"></i>
+                </a>
+                
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="about__section" id="about">
+
+            <div class='detail'>
+                <div class="introduction">
+                    <p class="hello-there">Hi </p>
+                    <h2 class="myName">I'm <span>Coding Rush</span></h2>
+
+                    <div class="handlingjob">
+                        <p class="job" id="job" ></p>
+                    </div>
+                    
+                    <button class="hire__me__button">HIRE ME!</button>
+                </div>
+            </div>
+
+             <div class="picSection">
+                 <div class="pic">
+                     <img src='./Images/about_man.png' />
+                 </div>
+             </div>
+
+              <!-- Particles -->
+            <div id="particles-js"></div>
+            <div class="wave">
+            </div>      
+
+        </div>
+        
+        <!-- Experience -->
+        <div class="experience__section">
+            <div>
+                <img src="./Images/google__logo.png" alt="" height="35px">
+            </div>
+            <div>
+                <img src="./Images/youtube__logo.png" alt="" height="35px">
+            </div>
+            <div>
+                <img src="./Images/linkedin.png" alt="" height="35px">
+            </div>
+            <div>
+                <img src="./Images/netflix__logo.png" alt="" height="35px">
+            </div>
+            <div>
+                <img src="./Images/shopify__logo.png" alt="" height="35px">
+            </div>
+
+        </div>
+        
+        <!-- Skills -->
+         <div class="skills__section" id="skills">
+            <div class="skills">
+                <div class="skills-left">
+                </div>
+                            
+                <div class="skills-right">
+                    <h3>MY SKILLS</h3>
+
+                    <div class="skill">
+                        <div>
+                            <p>HTML</p>
+                            <p>95%</p>
+                        </div>
+                        <div class="skill_html"></div>
+                    </div>
+
+                    <div class="skill">
+                        <div>
+                            <p>JAVASCRIPT</p>                        
+                            <p>84%</p>
+                        </div>
+                        <div class="skill_javascript"></div>
+                    </div>
+
+                    <div class="skill">
+                        <div>
+                            <p>NODE JS</p>                        
+                            <p>82%</p>
+                        </div>
+                        <div class="skill_nodejs"></div>
+                    </div>
+
+                    <div class="skill">
+                        <div>
+                            <p>REACT JS</p>                        
+                            <p>62%</p>
+                        </div>
+                        <div class="skill_reactjs"></div>
+                    </div>   
+
+                    <div class="skill">
+                        <div>
+                            <p>REACT NATIVE</p>                        
+                            <p>54%</p>
+                        </div>
+                        <div class="skill_reactnative"></div>
+                    </div>
+
+                    <button class="download_cv">Download CV</button>
+                </div>
+
+            </div>
+         </div>
+
+         <!-- Reviews  -->
+         <div class="reviews__section" id="reviews">
+             <center><p>TESTIMONIAL</p></center>
+             <center><h3>PEOPLE ARE SAYING!</h3></center>
+
+             <div class="swiper swipeReviews">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide review">
+                        <div class="review-content">
+                            <div class="review-content-header">
+                                <div>
+                                    <img src="./Images/user.png"/>
+                                    <h4>Alexandra</h4> 
+                                </div>
+
+                                <div>
+                                    <img src='./Images/instagram.png' height="28px" width="28px"/>
+                                    <img src='./Images/linkedin.png' height="28px" width="28px"/>                                    
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, error! Soluta incidunt harum esse sequi, exercitationem beatae quam, laborum alias voluptates commodi rerum nihil id repudiandae fugiat, quidem corporis reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate veniam, pariatur distinctio aut blanditiis, optio hic tempora nam similique aliquam adipisci veritatis sed enim aperiam officia iste? Sunt, quia.</p>
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide review">
+                        <div class="review-content">
+                            <div class="review-content-header">
+                                <div>
+                                    <img src="./Images/user.png"/>
+                                    <h4>Alexandra</h4> 
+                                </div>
+
+                                <div>
+                                    <img src='./Images/instagram.png' height="28px" width="28px"/>
+                                    <img src='./Images/linkedin.png' height="28px" width="28px"/>                                    
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, error! Soluta incidunt harum esse sequi, exercitationem beatae quam, laborum alias voluptates commodi rerum nihil id repudiandae fugiat, quidem corporis reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate veniam, pariatur distinctio aut blanditiis, optio hic tempora nam similique aliquam adipisci veritatis sed enim aperiam officia iste? Sunt, quia.</p>
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide review">
+                        <div class="review-content">
+                            <div class="review-content-header">
+                                <div>
+                                    <img src="./Images/user.png"/>
+                                    <h4>Alexandra</h4> 
+                                </div>
+
+                                <div>
+                                    <img src='./Images/instagram.png' height="28px" width="28px"/>
+                                    <img src='./Images/linkedin.png' height="28px" width="28px"/>                                    
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, error! Soluta incidunt harum esse sequi, exercitationem beatae quam, laborum alias voluptates commodi rerum nihil id repudiandae fugiat, quidem corporis reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate veniam, pariatur distinctio aut blanditiis, optio hic tempora nam similique aliquam adipisci veritatis sed enim aperiam officia iste? Sunt, quia.</p>
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide review">
+                        <div class="review-content">
+                            <div class="review-content-header">
+                                <div>
+                                    <img src="./Images/user.png"/>
+                                    <h4>Alexandra</h4> 
+                                </div>
+
+                                <div>
+                                    <img src='./Images/instagram.png' height="28px" width="28px"/>
+                                    <img src='./Images/linkedin.png' height="28px" width="28px"/>                                    
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, error! Soluta incidunt harum esse sequi, exercitationem beatae quam, laborum alias voluptates commodi rerum nihil id repudiandae fugiat, quidem corporis reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate veniam, pariatur distinctio aut blanditiis, optio hic tempora nam similique aliquam adipisci veritatis sed enim aperiam officia iste? Sunt, quia.</p>
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide review">
+                        <div class="review-content">
+                            <div class="review-content-header">
+                                <div>
+                                    <img src="./Images/user.png"/>
+                                    <h4>Alexandra</h4> 
+                                </div>
+
+                                <div>
+                                    <img src='./Images/instagram.png' height="28px" width="28px"/>
+                                    <img src='./Images/linkedin.png' height="28px" width="28px"/>                                    
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, error! Soluta incidunt harum esse sequi, exercitationem beatae quam, laborum alias voluptates commodi rerum nihil id repudiandae fugiat, quidem corporis reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate veniam, pariatur distinctio aut blanditiis, optio hic tempora nam similique aliquam adipisci veritatis sed enim aperiam officia iste? Sunt, quia.</p>
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide review">
+                        <div class="review-content">
+                            <div class="review-content-header">
+                                <div>
+                                    <img src="./Images/user.png"/>
+                                    <h4>Alexandra</h4> 
+                                </div>
+
+                                <div>
+                                    <img src='./Images/instagram.png' height="28px" width="28px"/>
+                                    <img src='./Images/linkedin.png' height="28px" width="28px"/>                                    
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, error! Soluta incidunt harum esse sequi, exercitationem beatae quam, laborum alias voluptates commodi rerum nihil id repudiandae fugiat, quidem corporis reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate veniam, pariatur distinctio aut blanditiis, optio hic tempora nam similique aliquam adipisci veritatis sed enim aperiam officia iste? Sunt, quia.</p>
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+         </div>
+
+         <!-- Projects -->
+         <div class="projects__section" id="projects">
+            <center><p>PROJECTS!</p></center>
+            <center><h3>THINGS I HAVE MADE</h3></center>
+
+            <div class="projects">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+         </div>
+
+         <!-- Contact -->
+        <div class="contact__section" id="contact">
+            <h3>Contact Us!</h3>    
+            <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure harum porro a reprehenderit, minus sed laborum. Veniam sunt modi inventore quod odit vero et aliquam saepe voluptatem harum, delectus autem?</p>
+           <div class="contact">
+               <div class="contact__left">
+
+                   <div class="contact__info">
+                            <div>
+                                <i class="fas fa-location-arrow"></i>
+                            </div>
+
+                            <div>
+                                <h4>Address</h4>
+                                <p>52 B Gali No.1 Siddhartha Nagar Shergarhi, Meerut</p>                                    
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="contact__info">
+                            <div>
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>kakkukmr50@gmail.com</p>                                    
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="contact__info">
+                            <div>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                
+                            </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 7579681008</p>                                    
+                        </div>
+                    </div>
+
+
+               </div>
+               <div class="contact__right">
+                   <h4>Send Message</h4>
+                   <form>
+                       <input type='email' name='email' placeholder="Email Address" />
+                       <input type='text' name='name' placeholder="Name" />
+                       <textarea name="message" placeholder="Enter Your Message!"></textarea>
+                        <button class="contact__button">SEND!</button>
+
+                    </form>
+               </div>
+           </div>
+         </div>
+
+    </div>
+
+    <div class="scrollToTop">
+        <span><i class="fas fa-arrow-up"></i></span>
+    </div>
+
+        <!-- Swiper JS CDN -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="index.js"></script> 
+    
+
+
+</body>
+</html>

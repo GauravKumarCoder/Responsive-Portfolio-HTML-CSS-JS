@@ -1,0 +1,183 @@
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+  /* Header  */
+  .header a {
+    display: none;
+  }
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+  .header.responsive {
+    display: block;
+    z-index: 55;
+  }
+  .header.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  /* About  */
+  .about__section {
+    flex-direction: column-reverse;
+    height: 850px !important;
+  }
+
+  .detail {
+    width: 100%;
+  }
+
+  .detail .introduction {
+    margin: 0 0 0 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .picSection {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .picSection .pic {
+    height: 350px !important;
+    width: 350px !important;
+    margin: auto !important;
+    margin-top: 50px !important;
+  }
+
+  .picSection img {
+    height: 100%;
+    margin: 50px 0 !important;
+  }
+
+  .introduction .hire__me__button {
+    margin-top: 50px;
+  }
+
+  /* For Skills */
+  .skills__section {
+    padding: 0 !important;
+  }
+
+  .skills__section .skills {
+    display: block;
+    text-align: center;
+    margin: 0 !important;
+    border: 1px solid lightgray;
+    padding: 80px 0;
+  }
+
+  .skills__section .skills .skills-left,
+  .skills__section .skills .skills-right {
+    width: 80%;
+    margin: auto;
+  }
+
+  .skills__section .skills-left {
+    margin: auto;
+    height: 50vw !important;
+  }
+
+  .skills-right {
+    margin-top: 50px;
+    margin-top: 40px !important;
+  }
+
+  .skills__section .skills-right h3 {
+    font-size: 7vw;
+  }
+
+  .skills .skills-right .download_cv {
+    margin: auto !important;
+    margin-top: 70px !important;
+  }
+
+  /* For Reviews */
+
+  .reviews__section {
+    margin-top: 0;
+  }
+  .reviews__section .swiper-wrapper {
+    height: 80vw;
+  }
+
+  .review-content .review-content-header {
+    margin-top: 10px !important;
+  }
+
+  .reviews__section h3 {
+    font-size: 7vw;
+  }
+
+  .review-content p {
+    font-size: 15px;
+    height: 50%;
+    overflow-y: hidden;
+  }
+
+  /* WorkExperience */
+
+  .experience__section div {
+    margin: 0 4%;
+  }
+  .experience__section div img {
+    height: 30px;
+  }
+
+  .projects__section h3 {
+    font-size: 7vw;
+  }
+
+  .scrollToTop {
+    padding: 20px;
+  }
+
+  .scrollToTop i {
+    font-size: 20px;
+  }
+
+  /* Contacts */
+  .contact__section .contact {
+    display: block;
+  }
+
+  .contact__section .contact .contact__left,
+  .contact__section .contact .contact__right {
+    width: 90%;
+    margin: auto;
+    transition: 1s ease all;
+    text-align: center;
+  }
+
+  .contact__section .contact .contact__left {
+    width: 80% !important;
+    height: 400px;
+  }
+
+  .contact__right h4 {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 250px) !important;
+  }
+
+  .projects div {
+    height: auto !important;
+  }
+
+  .projects div:nth-child(2) {
+    grid-row: 1/3 !important;
+    grid-column: 3 !important;
+  }
+}
